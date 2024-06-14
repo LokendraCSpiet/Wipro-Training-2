@@ -1,0 +1,92 @@
+CREATE TABLE Products (
+	ProductID INT PRIMARY KEY AUTO_INCREMENT,
+    ProductName NVARCHAR(50) NOT NULL,
+    Quantity INT NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    Discount DECIMAL(5,2) NOT NULL
+);
+    
+INSERT INTO Products (ProductName, Quantity, Price, Discount) VALUES 
+('Laptop', 10, 1000, 5),
+('Headphones', 50, 150, 10),
+('Moniter', 30, 300, 7.50),
+('Keyboard', 100, 50, 20),
+('Mouse', 200, 25, 15);
+
+
+
+SELECT * FROM products;
+
+SELECT *,(Quantity * Price) AS TotalPrice FROM products ;
+
+SELECT AVG(Price) AS AveragePrice FROM products;
+
+SELECT SUM(Price * Quantity) AS TotalRevenue FROM products;
+
+
+-------------------------------------------------------------------------------------
+
+create database school_db;
+
+use school_db;
+
+CREATE TABLE Students (
+    StudentID INT PRIMARY KEY AUTO_INCREMENT,
+    StudentName NVARCHAR(50) NOT NULL,
+    Email NVARCHAR(50) NOT NULL,
+    Age INT NOT NULL
+);
+
+CREATE TABLE Courses (
+    CourseID INT PRIMARY KEY AUTO_INCREMENT,
+    CourseName NVARCHAR(50) NOT NULL,
+    Credits INT NOT NULL,
+    StudentID INT,
+    foreign key (StudentID) references Students(StudentID)
+    );
+
+
+-- Insert Records into Students Table
+INSERT INTO Students (StudentName, Email, Age) VALUES
+('Alice Johnson', 'alice.johnson@example.com', 20),
+('Bob Smith', 'bob.smith@example.com', 22),
+('Charlie Brown', 'charlie.brown@example.com', 21),
+('Diana Prince', 'diana.prince@example.com', 23),
+('Eve Adams', 'eve.adams@example.com', 20);
+
+-- Insert Records into Courses Table
+INSERT INTO Courses (CourseName, Credits, StudentID) VALUES
+('Database Systems', 3, 1),
+('Computer Networks', 4, 2),
+('Operating Systems', 3, 3),
+('Data Structures', 4, 4),
+('Software Engineering', 3, 5);
+
+
+-- ALTER Course table to ADD Semester column 
+ALTER TABLE Courses
+ADD Semester NVARCHAR(10);
+
+-- ALTER Course table to DROP Semester column 
+ALTER TABLE Courses
+DROP Semester
+
+-- ALTER Students table to MODIFY Age column 
+ALTER TABLE  Students
+MODIFY Age INT NOT NULL DEFAULT 18;
+
+-------------------------------------------------------------------------------------
+
+-- INDEX --
+
+CREATE INDEX idx_first_name
+ON employees (firstname);
+
+-- SELECT * FROM employees
+-- where firstname = 'rahul'
+
+-- 1 lakh Records
+
+
+DROP INDEX idx_first_name
+ON employees;

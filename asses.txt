@@ -1,0 +1,8 @@
+Your agile team is estimating user stories points. 
+one team suggests using T-shirt sizes instead, aruging that it would  be simpler and 
+less time-consuming. What should the teaam consider when deciding whether to switch 
+estimation techniques?
+A) The perference of the product owner
+B) The familiarity of the team with each estimation technique
+c) The potential impact on the accuracy of estimates
+D) All of the above

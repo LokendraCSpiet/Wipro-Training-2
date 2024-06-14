@@ -1,0 +1,92 @@
+
+-- BASE SCRIPT --
+GIT BASE  , because linux karnal not possible
+
+
+$ Name = "Lok"
+$ echo $Name
+
+-------------
+
+$ for i in {1..5};do
+    echo "Insertion $i"
+done
+
+--OR--
+$ for i in {1..5}; do echo "Insertion $i"; done
+
+-------------
+
+count=1
+while [ $count -le 5 ]; do
+  echo "Count: $count"
+  ((count++))
+done
+
+-------------
+
+$ my_function() {
+    echo "Hello from the function!"
+}
+run and output - 
+my_function
+Hello from the function!
+
+
+-------------
+
+# Step 1 : Use a for loop to create files and write to them
+for i in {1..5};do
+    touch "file_$i.txt"
+    done
+
+#Step 2: List the files to verify they were created
+ls -l
+
+echo "Files created and written to successfully!"
+
+---------------
+
+# Script to demonstrate basic bash scripting
+echo "Enter your name:"
+read name
+echo "Hello,$name!"
+
+echo "Current directory is:$(pwd)"
+echo "Listing files in the current directory:"
+ls -l
+echo "End of the list of files"
+
+
+
+
+for i in {1..5};do
+echo "Hii"
+done
+
+
+
+count=1
+while [ $count -le 5 ]; do
+  echo "Count: $count"
+  ((count++))
+done
+
+
+
+--------------------------------------------task
+read -p "Enter Number: " count
+while [ $count -ne 0 ]; do
+    if [ $((count % 2)) -eq 0 ]; then
+        echo "EVEN"
+    else
+        echo "ODD"
+    fi
+    read -p "Enter Number: " count
+done
+
+
+
+
+
+

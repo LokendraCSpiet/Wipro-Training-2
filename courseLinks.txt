@@ -1,0 +1,35 @@
+
+
+
+Waterfall Model - 
+https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model
+
+
+Agile Model - 
+https://asana.com/resources/agile-methodology
+
+
+Spiral Model -
+https://www.techtarget.com/searchsoftwarequality/definition/spiral-model
+
+spiral model - 
+example by harshapriya - 
+The best example for this model is online registration system 
+Initial client requirement only photograph of the candidate
+Second level of client requirement photograph along with biometric of the candidate
+Plant requirement photograph along with biometric and aadhar verified by his biometric of the candid 
+4th level of requirement photograph biometric and iris and Aadhar verified through biometric of the 
+candidate 5th level of client requirement photograph biometric and iris aadhar verified through Irish 
+
+
+V Model -
+https://builtin.com/software-engineering-perspectives/v-model
+
+
+
+LINUX : Operating System
+https://www.redhat.com/en/topics/linux/what-is-linux
+
+
+Relational DATABASE -
+https://cloud.google.com/learn/what-is-a-relational-database#:~:text=A%20relational%20database%20management%20system,SQL%20Server%2C%20and%20Oracle%20Database

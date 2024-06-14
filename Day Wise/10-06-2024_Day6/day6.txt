@@ -1,0 +1,67 @@
+Date - 10 June 2024
+
+LINUX : Operating System
+
+
+https://www.redhat.com/en/topics/linux/what-is-linux
+
+https://www.terminaltemple.com/
+
+https://acceleratron.in/vm-linux-terminal
+
+
+
+
+Terminal Commands - 
+pwd - print working directory – pwd
+ls  - Lists files and directories in the current directory
+	    eg: Documents, Music, Downloads, Pictures
+cd  - Change Directory
+	    eg : cd Documents
+touch – creat file
+	    eg : touch example.txt
+nano – Modify or write on file
+	    eg : nano example.txt
+
+        -----
+
+-----------------------------------------------
+Create a new directory -- wipro
+Go into the directory
+    Create a new file
+    Add content to file
+    Save and quit
+
+
+-----------------------------------------------
+
+Navigation and Directories
+
+1. Navigating to Root and Home Directories:
+    • How do you navigate to the root directory from any location in the filesystem?
+    • What command would you use to go to your home directory from anywhere in the filesystem?
+
+2. Creating and Navigating Directories:
+    • Create a directory named testdir in your home directory. How would you do this?
+    • How can you change into the testdir directory you just created?
+
+3. Displaying Current Directory:
+    • Which command will show you the current directory you are in?
+
+
+File Operations
+
+4. Creating Files:
+    • How do you create a new, empty file named example.txt in the testdir directory?
+
+5. Copying Files:
+    • How can you copy the file example.txt to a new file named example_copy.txt within the same directory?
+    • If you wanted to copy example.txt to another directory, say /tmp, what command would you use?
+
+6. Moving and Renaming Files:
+    • How would you move example_copy.txt to the parent directory of testdir?
+    • How can you rename example.txt to renamed_example.txt?
+
+7. Removing Files:
+    • What command would you use to delete renamed_example.txt?
+    • How would you delete a directory named old_dir and all its contents?

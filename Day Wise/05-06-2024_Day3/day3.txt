@@ -1,0 +1,97 @@
+EPIC - Add Product to cart - make a Payment
+Payment on amazon
+
+EPIC - Payment on amazon
+
+features
+1. Internet Banking
+2. UPI
+3. Credit card or debit card
+4. COD
+
+User Stories
+1.Internet Banking
+    Axis Bank
+    HDFC Bank
+    ICICI Bank etc.
+2. UPI
+    Phone Pay
+    Paytm
+    Google Pay
+3.credit card or debit card
+    VISA
+    Master card
+    Meastro
+    Bajaj etc.
+4.COD
+
+
+Tasks
+UI, Middle Layer, DB Layer
+
+
+--------------------------------------------------------
+
+Daily Standup Meeting - 15 mins - 10 am
+
+What you did yesterday -- Learnt about agile
+What are you doing today -- cont on agile
+Any impediments (blockers) == My VM is not working, Unable to connect, Power Issue
+
+Built the Ui for ICICI Bank Integration 
+Build the Middle Layer
+Blocker -- I need the clarity on databases schema
+
+
+--------------------------------------------------------
+
+Planning Meeting -- On the first Day of the Sprint
+How many days for any Sprint -- can be 2 weeks / 3 weeks / 4 weeks
+
+Allocate the work -- enggs
+
+1. Internat Banking 
+    ICICI bank Integration -- tanu
+    HDFC bank Integration -- Durga
+    SBI bank Integration -- Mukul
+
+
+
+--------------------------------------------------------
+
+https://www.techtarget.com/searchsoftwarequality/definition/spiral-model
+
+
+https://builtin.com/software-engineering-perspectives/v-model
+
+
+--------------------------------------------------------
+
+spiral model - 
+example by harshapriya - 
+The best example for this model is online registration system 
+Initial client requirement only photograph of the candidate
+Second level of client requirement photograph along with biometric of the candidate
+Plant requirement photograph along with biometric and aadhar verified by his biometric of the candid 
+4th level of requirement photograph biometric and iris and Aadhar verified through biometric of the 
+candidate 5th level of client requirement photograph biometric and iris aadhar verified through Irish 
+
+--------------------------------------------------------
+
+use case 1: Customer Service of Amazon
+use case 2: Payment Page of Amazon
+
+Assignment 2: Develop a case study analyzing the Implementation of SDLC phases in 
+a real-world engineering project. Evaluate how Requirement Gathering, Design, Implementation, Testing, 
+Deployment, and Maintenance contriute to project outcomes.
+
+
+--------------------------------------------------------
+
+Assignment 3: Research and compare SDLC models suitable for engineering projects, Present findings on 
+waterfall, Agile, Spiral, and V-Model approaches, emphasizing their advantages, and applicability in 
+different engineering contexts.
+
+
+
+

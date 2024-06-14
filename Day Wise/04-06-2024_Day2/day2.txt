@@ -1,0 +1,49 @@
+SDLC
+waterfall model
+agile
+
+
+https://www.techtarget.com/searchsoftwarequality/definition/waterfall-model
+
+https://asana.com/resources/agile-methodology
+
+
+https://www.amazon.in/gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+
+
+https://azure.microsoft.com/en-in/products/devops
+
+i creak - 
+https://aex.dev.azure.com/me?mkt=en-US#
+
+https://dev.azure.com/wiproOrgTrainingLokendra/wipro-DevOps/_workitems/recentlyupdated/
+
+
+
+outlook 
+
+
+Customer Service
+
+Your Orders
+Returns and Refunds
+Manage Address
+Manage Prime
+Payment Settings
+Account Settings
+
+
+
+Building the UI -- 16 hrs
+Building the Middle Layer -- 8 hrs
+Building the database Layer - 4 hrs
+
+
+--------------------------------------------------------
+
+Assignment 1: SDLC Overview - Create a one-page infografic that outlines the SDLC phases(Requirements,
+Design, Implementation, Testing, Deployment), highlighting the importance of 
+each phase and how they interconnect.
+
+
+

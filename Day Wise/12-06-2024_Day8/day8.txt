@@ -1,0 +1,69 @@
+
+Relational DATABASE -
+
+https://cloud.google.com/learn/what-is-a-relational-database#:~:text=A%20relational%20database%20management%20system,SQL%20Server%2C%20and%20Oracle%20Database
+
+
+SELECT * FROM Customers;
+
+create table tblPerson(
+  id INT PRIMARY KEY,
+  Name NVARCHAR(50) NOT NULL,
+  Email NVARCHAR(50) NOT NULL,
+  GenderId INT NULL
+);
+
+
+Insert into tblPerson (id,Name,Email,GenderId) VALUES 
+(1,'Eva Green','eva.green@example.com',2),
+(2,'Alex Green','eva.green@example.com',1),
+(3,'Max Green','eva.green@example.com',1),
+(4,'Amit Singh','eva.green@example.com',1),
+(5,'Liva Green','eva.green@example.com',2),
+(6,'Tiya Green','eva.green@example.com',2)
+;
+
+UPDATE tblPerson SET Name = 'Max Green',Email = 'max@example.com' where id = 3;
+
+UPDATE tblPerson SET Name = 'Eva Green', Email = 'eva@example.com' where id = 1
+UPDATE tblPerson SET Name = 'Alex Green', Email = 'alex@example.com' where id = 2,
+UPDATE tblPerson SET Name = 'Max Green', Email = 'max@example.com' where id = 3
+UPDATE tblPerson SET Name = 'Amit Singh', Email = 'amit@example.com' where id = 4,
+UPDATE tblPerson SET Name = 'Liva Green', Email = 'liva@example.com' where id = 5,
+UPDATE tblPerson SET Name = 'Tiya Green', Email = 'tiya@example.com' where id = 6,
+
+
+-----------------------------------------------------------------------------------------
+
+create table products(
+  ProductId INT PRIMARY KEY NOT NULL,
+  ProductName NVARCHAR(50) NOT NULL,
+  Category NVARCHAR(50) NOT NULL,
+  Price decimal(10,2) NOT NULL,
+  StockQuantity INT NOT NULL
+);
+
+
+Insert into products (ProductId,ProductName,Category,Price,StockQuantity) VALUES 
+(1, 'Laptop', 'Electronics', 1000.00, 50),
+(2, 'Headphones', 'Electronics', 150.00, 200),
+(3,'Coffee Maker','Home Appliences', 80.00, 100),
+(4,'Blender','Home Appliences', 120.00, 80),
+(5,'Office Chair','Furniture', 250.00, 30);
+
+Insert into products (ProductId,ProductName,Category,Price,StockQuantity) VALUES 
+(6, 'Desk Lamp', 'Furniture', 250.00, 150);
+
+SELECT * FROM products;
+
+SELECT ProductName, Price FROM products;
+
+SELECT * FROM wip.products where Category = 'Electronics' ;
+
+SELECT * FROM wip.products order by Price asc;
+
+SELECT count(*) AS Number_of_Products from products;
+
+
+--------------------------------------------------------------
+
